@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HME</title>
+      <link rel="icon" type="image/png" href="Logo.png">
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="gaya.css">
+      
+</head>
+  <body class="bg-gradient-to-b from-white to-gray-400 font-sans">
+    <header class="navbar-cover">  
+    <nav class="p-4">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center">
+          <img src="EL.png" alt="Logo 2" class="h-16 w-16 mr-2">
+          <img src="Logo.png" alt="Logo 1" class="h-16 w-16">
+        </div>
+        <div class="hidden md:flex space-x-5">
+          <a href="beeranda.html" class="text-black">Beranda</a>
+          <a href="organigram.html" class="text-black">Organisasi</a>
+          <a href="galeri.html" class="text-black">Galeri HME</a>
+          <a href="kas.html" class="text-black">Info Keuangan HME</a>
+          <div class="relative group">
+            <button class="block text-black py-0 w-full text-left focus:outline-none">
+              Berita HME
+              <svg class="h-4 w-4 inline ml-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M9.29289 13.2929C9.68342 13.6834 10.3166 13.6834 10.7071 13.2929L14.7071 9.29289C15.0976 8.90237 15.0976 8.2692 14.7071 7.87868C14.3166 7.48815 13.6834 7.48815 13.2929 7.87868L10 11.1716L6.70711 7.87868C6.31658 7.48815 5.68342 7.48815 5.29289 7.87868C4.90237 8.2692 4.90237 8.90237 5.29289 9.29289L9.29289 13.2929Z" clip-rule="evenodd"></path>
+              </svg>
+            </button>
+            <div class="submenu absolute left-0 mt-2 w-40 text-black py-2 px-4 rounded shadow-lg">
+              <a href="beritatera.html" class="block">ITERA</a>
+              <a href="beasiswa.html" class="block">Beasiswa</a>
+              <a href="berita3.html" class="block">dan lainnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="md:hidden">
+          <button id="mobileMenuButton" class="text-black">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobileMenu" class="hidden md:hidden mt-4">
+        <a href="beeranda.html" class="block text-black py-2">Beranda</a>
+        <a href="organigram.html" class="block text-black py-2">Organisasi</a>
+        <a href="galeri.html" class="block text-black py-2">Galeri HME</a>
+        <a href="kas.html" class="block text-black py-2">Info Keuangan HME</a>
+        <div class="relative">
+          <button id="mobileContactButton" class="block text-black py-2 w-full text-left focus:outline-none">
+            Berita HME
+            <svg class="h-4 w-4 inline ml-2" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M9.29289 13.2929C9.68342 13.6834 10.3166 13.6834 10.7071 13.2929L14.7071 9.29289C15.0976 8.90237 15.0976 8.2692 14.7071 7.87868C14.3166 7.48815 13.6834 7.48815 13.2929 7.87868L10 11.1716L6.70711 7.87868C6.31658 7.48815 5.68342 7.48815 5.29289 7.87868C4.90237 8.2692 4.90237 8.90237 5.29289 9.29289L9.29289 13.2929Z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div class="hidden mt-2" id="mobileContactSubmenu">
+            <a href="beritatera.html" class="block text-black py-2 pl-6">ITERA</a>
+            <a href="beasiswa.html" class="block text-black py-2 pl-6">Beasiswa</a>
+            <a href="berita3.html" class="block text-black py-2 pl-6">dan lainnya</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+      <section class="cover-section">
+        <div class="full-video overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="vidbp.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+      </section>
+
+  <div class="w-100 h-100 flex justify-center items-center my-0 bg-white">
+    <!-- Gambar akan ditempatkan di sini -->
+    <div class="flex justify-center items-center rounded-lg shadow-md">
+      <img src="organigram.jpg" alt="Deskripsi Gambar" class="object-contain h-full w-full">
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Section 1 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Sekretaris Umum</h2>
+      <ul class="list-decimal pl-6">
+        <li>Sekolah administrasi</li>
+        <li>Arsip HME</li>
+        <li>Kalender HME</li>
+        <li>rekap bulanan</li>
+
+      </ul>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Bendahara Umum</h2>
+      <ul class="list-decimal pl-6">
+        <li>Buku Tabungan</li>
+        <li>E-Cash</li>
+        <li>E-Bof</li>
+        <li>Transparansi Keuangan</li>
+        <li>HME Operating Fund</li>
+        <li>Qris HME</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Departemen PSDA</h2>
+      <ul class="list-decimal pl-6">
+        <li>Management Sumber Daya Anggota</li>
+        <li>Monitoring dan Controlling</li>
+        <li>Timeline PSDA</li>
+        <li>Pelantikan Anggota Tetap</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Section 1 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Kaderisasi</h2>
+      <ul class="list-decimal pl-6">
+        <li>Pra PKTD</li>
+        <li>Open recruitmen panitia lapangan</li>
+        <li>Sekolah panitia lapangan</li>
+        <li>Pembukaan PKTD</li>
+        <li>Staff magang</li>
+        <li>Materi Manajemen Acara</li>
+        <li>FGD</li>
+        <li>First Gathering</li>
+        <li>Keprofesian</li>
+        <li>Tugas kekeluargaan</li>
+        <li>Evaluasi berkala</li>
+        <li>Pos to pos</li>
+        <li>Puncak PKTD</li>
+        <li>Pelantikan Anggota Muda</li>
+      </ul>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Pengembangan Anggota</h2>
+      <ul class="list-decimal pl-6">
+        <li>PKTM 2023</li>
+        <li>Pembukaan PKTM 2023</li>
+        <li>Apresiasi bulanan peserta PKTM 2023</li>
+        <li>EL-Design</li>
+        <li>EL-Workshop</li>
+        <li>LKMM-TD</li>
+        <li>Pelantikan Anggota Tetap 2023</li>
+        <li>ELKRAB</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Pengembangan Minat dan Bakat</h2>
+      <ul class="list-decimal pl-6">
+        <li>Pengembangan minat dan bakat melalui latihan rutin tiap komunitas</li>
+        <li>Pembuatan wadah minat dan bakat dengan survey melalui gform</li>
+        <li>Pengajuan kemampuan minat dan bakat melalui electrical games</li>
+        <li>Pengenalan wadah minat dan bakat pada konten PMB di sosial media(instagram)</li>
+        <li>Pendamping delegasi lomba</li>
+        <li>Mengadakan sparingan/fun game dengan prodi ITERA ataupun antar kampus</li>
+        <li>Penanggung jawab komunitas HME</li>
+        <li>Seleksi pemain untuk setiap lomba</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Section 1 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Departemen Eksternal</h2>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Ekstrakampus dan Alumni</h2>
+      <ul class="list-decimal pl-6">
+        <li>Studi Banding</li>
+        <li>Ekskursi</li>
+        <li>Webinar Alumni</li>
+        <li>PKHMEI</li>
+        <li>Sponsorship dan relasi media</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Intrakampus</h2>
+      <ul class="list-decimal pl-6">
+        <li>ELITE</li>
+        <li>Ramah tamah himpunan</li>
+        <li>Duduk bareng dosen</li>
+        <li>Duduk bareng kabinet</li>
+        <li>Duduk bareng lab</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Section 1 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Pengabdian Masyarakat</h2>
+      <ul class="list-decimal pl-6">
+        <li>ABDIMAS</li>
+        <li>HME Mengajar</li>
+        <li>PPK Ormawa</li>
+        <li>HME Peduli Lingkungan</li>
+      </ul>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Departemen Internal</h2>
+      <ul class="list-decimal pl-6">
+        <li>Riuh Wisuda</li>
+        <li>Dies Natalis</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Kekeluargaan, Advokasi dan Rumah Tangga</h2>
+      <ul class="list-decimal pl-6">
+        <li>Data Terpusat</li>
+        <li>HOT Line dan duduk bareng HME</li>
+        <li>HME berdonasi</li>
+        <li>Elektro akrab</li>
+        <li>Kegiatan Kerohanian</li>
+        <li>Secret message</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Section 1 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Akademik dan Beasiswa</h2>
+      <ul class="list-decimal pl-6">
+        <li>Beasiswa Rectifier</li>
+        <li>Tutorial mata kuliah prodi atau TPB</li>
+        <li>Sharing bersama mahasiswa teknik elektro yang sudah melaksanakan MBKM/KP</li>
+      </ul>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Kewirausahaan</h2>
+      <ul class="list-decimal pl-6">
+        <li>BUMH</li>
+        <li>Koperasi HME</li>
+        <li>Kolaborasi usaha</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Departemen Komunikasi dan Informasi</h2>
+      <ul class="list-decimal pl-6">
+        <li>Inventaris kominfo</li>
+        <li>Kominfo Assesment</li>
+        <li>Kalender kominfo</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Section 1 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Publikasi dan Dokumentasi</h2>
+      <ul class="list-decimal pl-6">
+        <li>Sosial Media HME</li>
+        <li>Channel HME</li>
+        <li>Publikasi dan informasi HME</li>
+        <li>Dokumentasi kegiatan</li>
+        <li>Duduk bareng lab</li>
+      </ul>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Desain dan Kreatif</h2>
+      <ul class="list-decimal pl-6">
+        <li>Desain bekarya</li>
+        <li>Pelatihan dasar desain</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Data dan Jurnalistik</h2>
+      <ul class="list-decimal pl-6">
+        <li>Kabar setrum</li>
+        <li>Yuk ngonten</li>
+        <li>Website HME</li>
+        <li>HME tahu!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <!-- Section 1 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Departemen Teknokreator</h2>
+      <ul class="list-decimal pl-6">
+        <li>Inventaris HME</li>
+        <li>HME airdrop</li>
+      </ul>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Pengembangan Project dan Karya Cipta</h2>
+      <ul class="list-decimal pl-6">
+        <li>Pengembangan Electrical Vehicle</li>
+        <li>Projek alat baru</li>
+        <li>Komunitas Elektro Ngoding</li>
+        <li>HME apps</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-semibold mb-2">Divisi Pelatihan dan Keprofesian</h2>
+      <ul class="list-decimal pl-6">
+        <li>Pengenalan alat KIT praktikum & mengedukasi tentang dunia kelistrikan</li>
+        <li>Pekan servis</li>
+        <li>CUTE (Cuan Teknokreator)</li>
+        <li>Pelatihan robotika (line follower)</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="bg-black text-white py-6">
+    <div class="container mx-auto text-center">
+        <p>Hak Cipta © 2023 HME ITERA. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <script async src="gaya.js"></script>
+
+</body>
+</html>

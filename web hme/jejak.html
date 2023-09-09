@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HME</title>
+      <link rel="icon" type="image/png" href="Logo.png">
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="gaya.css">
+      
+</head>
+  <body class="bg-gradient-to-b from-white to-gray-400 font-sans">
+    <header class="navbar-cover">  
+    <nav class="p-4">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center">
+          <img src="EL.png" alt="Logo 2" class="h-16 w-16 mr-2">
+          <img src="Logo.png" alt="Logo 1" class="h-16 w-16">
+        </div>
+        <div class="hidden md:flex space-x-5">
+          <a href="beeranda.html" class="text-black">Beranda</a>
+          <a href="organigram.html" class="text-black">Organisasi</a>
+          <a href="galeri.html" class="text-black">Galeri HME</a>
+          <a href="kas.html" class="text-black">Info Keuangan HME</a>
+          <div class="relative group">
+            <button class="block text-black py-0 w-full text-left focus:outline-none">
+              Berita HME
+              <svg class="h-4 w-4 inline ml-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M9.29289 13.2929C9.68342 13.6834 10.3166 13.6834 10.7071 13.2929L14.7071 9.29289C15.0976 8.90237 15.0976 8.2692 14.7071 7.87868C14.3166 7.48815 13.6834 7.48815 13.2929 7.87868L10 11.1716L6.70711 7.87868C6.31658 7.48815 5.68342 7.48815 5.29289 7.87868C4.90237 8.2692 4.90237 8.90237 5.29289 9.29289L9.29289 13.2929Z" clip-rule="evenodd"></path>
+              </svg>
+            </button>
+            <div class="submenu absolute left-0 mt-2 w-40 text-black py-2 px-4 rounded shadow-lg">
+              <a href="beritatera.html" class="block">ITERA</a>
+              <a href="beasiswa.html" class="block">Beasiswa</a>
+              <a href="berita3.html" class="block">dan lainnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="md:hidden">
+          <button id="mobileMenuButton" class="text-black">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobileMenu" class="hidden md:hidden mt-4">
+        <a href="beeranda.html" class="block text-black py-2">Beranda</a>
+        <a href="organigram.html" class="block text-black py-2">Organisasi</a>
+        <a href="galeri.html" class="block text-black py-2">Galeri HME</a>
+        <a href="kas.html" class="block text-black py-2">Info Keuangan HME</a>
+        <div class="relative">
+          <button id="mobileContactButton" class="block text-black py-2 w-full text-left focus:outline-none">
+            Berita HME
+            <svg class="h-4 w-4 inline ml-2" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M9.29289 13.2929C9.68342 13.6834 10.3166 13.6834 10.7071 13.2929L14.7071 9.29289C15.0976 8.90237 15.0976 8.2692 14.7071 7.87868C14.3166 7.48815 13.6834 7.48815 13.2929 7.87868L10 11.1716L6.70711 7.87868C6.31658 7.48815 5.68342 7.48815 5.29289 7.87868C4.90237 8.2692 4.90237 8.90237 5.29289 9.29289L9.29289 13.2929Z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div class="hidden mt-2" id="mobileContactSubmenu">
+            <a href="beritatera.html" class="block text-black py-2 pl-6">ITERA</a>
+            <a href="beasiswa.html" class="block text-black py-2 pl-6">Beasiswa</a>
+            <a href="berita3.html" class="block text-black py-2 pl-6">dan lainnya</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-bg py-60 text-black">
+    <div class="container mx-auto px-4">
+    </div>
+  </section>
+
+  <div class="container mx-auto p-6">
+    <section class="p-6">
+      <h2 class="text-2xl font-semibold mb-4">Ketua Himpunan 1</h2>
+      <div class="rounded-lg shadow-md grid grid-cols-2 gap-4">
+        <div class="col-span-2">
+          <img src="jai.png" alt="John Doe" style="width: 3cm; height: 4cm;" class="rounded-lg">
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Nama</label>
+          <p class="text-gray-900">Muhammad Sirajuddin</p>
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">NIM</label>
+          <p class="text-gray-900">120130042</p>
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Tahun Menjabat</label>
+          <p class="text-gray-900">2023</p>
+        </div>
+        <div class="col-span-1">
+          <label class="block font-semibold text-gray-600">Nama Kepengurusan</label>
+          <p class="text-gray-900">Trafotronika</p>
+        </div>
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-4">Kontak</h2>
+          <ul class="list-none flex flex-row space-x-4 mb-0">
+              <li>
+                  <a href="https://t.me/hme_itera">
+                      <img src="tele.png" alt="telegram" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com/msiraj02/">
+                      <img src="instagram.png" alt="Instagram" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.tiktok.com/@hme_itera?_t=8edpjvAJkyg&_r=1">
+                      <img src="tiktok.png" alt="TikTok" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://youtube.com/@hmeitera5233">
+                      <img src="youtube.png" alt="YouTube" class="w-6 h-6">
+                  </a>
+              </li>
+          </ul>
+          <a href="mailto:info@hotlinenews.com">
+            <p class="text-blue-500 underline">muhammadsirajuddin5@gmail.com</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+      <div class="container mx-auto p-6">
+        <section class="p-6">
+          <h2 class="text-2xl font-semibold mb-4">Ketua Himpunan 2</h2>
+          <div class="rounded-lg shadow-md grid grid-cols-2 gap-4">
+            <div class="col-span-2">
+              <img src="jai.png" alt="John Doe" style="width: 3cm; height: 4cm;" class="rounded-lg">
+            </div>
+            <div>
+              <label class="block font-semibold text-gray-600">Nama</label>
+              <p class="text-gray-900">Muhammad Sirajuddin</p>
+            </div>
+            <div>
+              <label class="block font-semibold text-gray-600">Umur</label>
+              <p class="text-gray-900">20</p>
+            </div>
+            <div>
+              <label class="block font-semibold text-gray-600">Alamat</label>
+              <p class="text-gray-900">Jakarta</p>
+            </div>
+            <div class="col-span-1">
+              <label class="block font-semibold text-gray-600">Pekerjaan</label>
+              <p class="text-gray-900">Mahasiswa</p>
+            </div>
+            <div class="p-4">
+              <h2 class="text-xl font-semibold mb-4">Kontak</h2>
+              <ul class="list-none flex flex-row space-x-4 mb-0">
+                  <li>
+                      <a href="https://t.me/hme_itera">
+                          <img src="tele.png" alt="telegram" class="w-6 h-6">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://instagram.com/hme_itera?igshid=MzRlODBiNWFlZA==">
+                          <img src="instagram.png" alt="Instagram" class="w-6 h-6">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.tiktok.com/@hme_itera?_t=8edpjvAJkyg&_r=1">
+                          <img src="tiktok.png" alt="TikTok" class="w-6 h-6">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://youtube.com/@hmeitera5233">
+                          <img src="youtube.png" alt="YouTube" class="w-6 h-6">
+                      </a>
+                  </li>
+              </ul>
+              <a href="mailto:info@hotlinenews.com">
+                <p class="text-blue-500 underline">muhammadsirajuddin5@gmail.com</p>
+              </a>
+          </div>
+          </div>
+        </section>
+      </div>
+
+    <div class="container mx-auto p-6">
+    <section class="p-6">
+      <h2 class="text-2xl font-semibold mb-4">Ketua Himpunan 3</h2>
+      <div class="rounded-lg shadow-md grid grid-cols-2 gap-4">
+        <div class="col-span-2">
+          <img src="jai.png" alt="John Doe" style="width: 3cm; height: 4cm;" class="rounded-lg">
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Nama</label>
+          <p class="text-gray-900">Muhammad Sirajuddin</p>
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Umur</label>
+          <p class="text-gray-900">20</p>
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Alamat</label>
+          <p class="text-gray-900">Jakarta</p>
+        </div>
+        <div class="col-span-1">
+          <label class="block font-semibold text-gray-600">Pekerjaan</label>
+          <p class="text-gray-900">Mahasiswa</p>
+        </div>
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-4">Kontak</h2>
+          <ul class="list-none flex flex-row space-x-4 mb-0">
+              <li>
+                  <a href="https://t.me/hme_itera">
+                      <img src="tele.png" alt="telegram" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://instagram.com/hme_itera?igshid=MzRlODBiNWFlZA==">
+                      <img src="instagram.png" alt="Instagram" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.tiktok.com/@hme_itera?_t=8edpjvAJkyg&_r=1">
+                      <img src="tiktok.png" alt="TikTok" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://youtube.com/@hmeitera5233">
+                      <img src="youtube.png" alt="YouTube" class="w-6 h-6">
+                  </a>
+              </li>
+          </ul>
+          <a href="mailto:info@hotlinenews.com">
+            <p class="text-blue-500 underline">muhammadsirajuddin5@gmail.com</p>
+          </a>
+      </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container mx-auto p-6">
+    <section class="p-6">
+      <h2 class="text-2xl font-semibold mb-4">Ketua Himpunan 4</h2>
+      <div class="rounded-lg shadow-md grid grid-cols-2 gap-4">
+        <div class="col-span-2">
+          <img src="jai.png" alt="John Doe" style="width: 3cm; height: 4cm;" class="rounded-lg">
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Nama</label>
+          <p class="text-gray-900">Muhammad Sirajuddin</p>
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Umur</label>
+          <p class="text-gray-900">20</p>
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Alamat</label>
+          <p class="text-gray-900">Jakarta</p>
+        </div>
+        <div class="col-span-1">
+          <label class="block font-semibold text-gray-600">Pekerjaan</label>
+          <p class="text-gray-900">Mahasiswa</p>
+        </div>
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-4">Kontak</h2>
+          <ul class="list-none flex flex-row space-x-4 mb-0">
+              <li>
+                  <a href="https://t.me/hme_itera">
+                      <img src="tele.png" alt="telegram" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://instagram.com/hme_itera?igshid=MzRlODBiNWFlZA==">
+                      <img src="instagram.png" alt="Instagram" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.tiktok.com/@hme_itera?_t=8edpjvAJkyg&_r=1">
+                      <img src="tiktok.png" alt="TikTok" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://youtube.com/@hmeitera5233">
+                      <img src="youtube.png" alt="YouTube" class="w-6 h-6">
+                  </a>
+              </li>
+          </ul>
+          <a href="mailto:info@hotlinenews.com">
+            <p class="text-blue-500 underline">muhammadsirajuddin5@gmail.com</p>
+          </a>
+      </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container mx-auto p-8">
+    <section class="p-6">
+      <h2 class="text-2xl font-semibold mb-4">Ketua Himpunan 5</h2>
+      <div class="rounded-lg shadow-md grid grid-cols-2 gap-4">
+        <div class="col-span-2">
+          <img src="jai.png" alt="John Doe" style="width: 3cm; height: 4cm;" class="rounded-lg">
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Nama</label>
+          <p class="text-gray-900">Muhammad Sirajuddin</p>
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Umur</label>
+          <p class="text-gray-900">20</p>
+        </div>
+        <div>
+          <label class="block font-semibold text-gray-600">Alamat</label>
+          <p class="text-gray-900">Jakarta</p>
+        </div>
+        <div class="col-span-1">
+          <label class="block font-semibold text-gray-600">Pekerjaan</label>
+          <p class="text-gray-900">Mahasiswa</p>
+        </div>
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-4">Kontak</h2>
+          <ul class="list-none flex flex-row space-x-4 mb-0">
+              <li>
+                  <a href="https://t.me/hme_itera">
+                      <img src="tele.png" alt="telegram" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://instagram.com/hme_itera?igshid=MzRlODBiNWFlZA==">
+                      <img src="instagram.png" alt="Instagram" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.tiktok.com/@hme_itera?_t=8edpjvAJkyg&_r=1">
+                      <img src="tiktok.png" alt="TikTok" class="w-6 h-6">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://youtube.com/@hmeitera5233">
+                      <img src="youtube.png" alt="YouTube" class="w-6 h-6">
+                  </a>
+              </li>
+          </ul>
+          <a href="mailto:info@hotlinenews.com">
+            <p class="text-blue-500 underline">muhammadsirajuddin5@gmail.com</p>
+          </a>
+      </div>
+        
+      </div>
+    </section>
+  </div>
+
+
+  <style>
+    /* Ubah tinggi section sampul sesuai kebutuhan */
+    .hero-bg {
+      height: 50px;
+      /* Ganti URL dengan path atau link gambar yang ingin digunakan sebagai latar belakang */
+      background-image: url('riuh.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+  
+    /* Ganti font sesuai preferensi Anda */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+  
+    /* Posisi teks di tengah secara horizontal dan vertikal */
+    .text-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* Menengahkan vertikal */
+      height: 100%; /* Memberi tinggi 100% untuk section agar tulisan berada di tengah */
+    }
+
+    .tekpang-bg {
+      width: 100%;
+      background-color: #32CD32;
+    }
+  
+    /* Ganti warna teks jika perlu */
+    .text-white {
+      color: white;
+    }
+
+    .logo {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 10px;
+        background-size: cover;
+    }
+
+    .email {
+        background-image: url('email.png');
+    }
+
+    .instagram {
+        background-image: url('instagram.png');
+    }
+
+    .youtube {
+        background-image: url('youtube.png');
+    }
+
+    .tiktok {
+        background-image: url('tiktok.png');
+    }
+
+    .telegram {
+      background-image: url('tele.png');
+    }
+  </style>
+  
+  
+
+<script>
+  const menuToggleBtn = document.getElementById('menu-toggle-btn');
+  const menuLinks = document.querySelector('.hidden.md\\:flex');
+
+  menuToggleBtn.addEventListener('click', () => {
+    menuLinks.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
